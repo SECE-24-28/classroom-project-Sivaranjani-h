@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #010c38, #871c3c);
+}
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background: rgb(142, 116, 132);
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.plan button {
+    background: rgb(69, 1, 76);
+    color: rgb(244, 244, 244);
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+.form-container {
+    background: rgb(144, 116, 139);
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form-container button {
+    padding: 10px 25px;
+    background: rgb(65, 2, 72);
+    color: white;
+    border: none;
+}
